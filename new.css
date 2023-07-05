@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    max-width: 377px;
+    height: 1100px;
+    width: 100%;
+    position: relative;
+    background-color: #029954;
+
+
+
+}
+
+.sectionOne {
+
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+
+
+
+}
+
+.body {
+    font-family: DM Sans;
+    font-style: normal;
+
+}
+
+.logoSpace {
+    display: flex;
+    flex-direction: colomn;
+    justify-content: space-between;
+    gap: 212px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    margin-top: 26px;
+    width: 83px;
+    height: 30px;
+}
+
+.menu {
+    margin-top: 20px;
+    width: 39px;
+    height: 31px;
+}
+
+.header {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 34px;
+    padding-right: 34px;
+
+
+}
+
+.heading {
+    font-size: 54px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 100.1%;
+    letter-spacing: -2.7px;
+    width: 309px;
+    text-align: center;
+}
+
+.subtext {
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
+    width: 311px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.google {
+    width: 242px;
+    height: 76px;
+    margin-left: 67px;
+    margin-right: 67px;
+}
+
+.apple {
+    width: 242px;
+    height: 75.392px;
+    margin-left: 67px;
+    margin-right: 67px;
+}
+
+
+.mobile {
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.sectionTwo {
+    width: 100%;
+    max-width: 377px;
+    position: relative;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.secText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px 6%;
+
+}
+
+
+.group {
+    width: 136.009px;
+    height: 155.856px;
+    transform: rotate(11.994deg);
+    color: #EBEBEB;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 20px;
+
+
+}
+
+.secText h5 {
+    font-size: 34px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 101.6%;
+    letter-spacing: -1.02px;
+    color: #007640;
+}
+
+.subtext p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.profile {
+    max-width: 375px;
+    width: 100%;
+    height: 681px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+
+.profileImage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.profileImage img {
+    width: 223.536px;
+    height: 260.792px;
+    transform: rotate(-5.14deg);
+    text-align: center;
+
+}
+
+.profileText {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px; 
+
+}
+
+
+.profileText h5 {
+    text-align: left;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    
+}
+
+.profileText p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section4{
+    background-color: #007640;
+        padding: 130px 6% 152px 6%;
+        display: flex;
+        flex-direction: column;
+        gap: 51px;
+        max-width: 377px;
+    } 
+
+.fans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+   
+.fans img{
+    border: 2.5px solid #FFBB62;
+        border-radius: 50%;
+        padding: 12px;
+    }
+
+.btn{ 
+    background: #FFBB62;
+        width: 84px;
+        height: 27px;
+        border-radius: 50px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.03em;
+}
+    
+
+
+.fansText{
+    color: #FFF;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+}
+
+.fansText h5{
+    font-size: 34px;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+
+}
+
+.fansText p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.influencer{
+    padding: 72px 6% 6%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    height: 617px;
+    max-width: 377px;
+    width: 100%;
+    
+}
+
+.influencerText{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.influencerText h4{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+}
+
+
+.influencerText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.influencer img{
+    width: 320px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
