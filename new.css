@@ -176,7 +176,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -195,7 +195,7 @@
     gap: 24px;
     justify-content: center;
     padding-left: 32px;
-    padding-right: 32px; 
+    padding-right: 32px;
 
 }
 
@@ -206,7 +206,7 @@
     font-weight: 500;
     line-height: 35px;
     letter-spacing: -0.03em;
-    
+
 }
 
 .profileText p {
@@ -216,64 +216,64 @@
     line-height: 24px;
 }
 
-.section4{
+.section4 {
     background-color: #007640;
-        padding: 130px 6% 152px 6%;
-        display: flex;
-        flex-direction: column;
-        gap: 51px;
-        max-width: 377px;
-    } 
+    padding: 130px 6% 152px 6%;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    max-width: 377px;
+}
 
-.fans{
+.fans {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-   
-.fans img{
+
+.fans img {
     border: 2.5px solid #FFBB62;
-        border-radius: 50%;
-        padding: 12px;
-    }
+    border-radius: 50%;
+    padding: 12px;
+}
 
-.btn{ 
+.btn {
     background: #FFBB62;
-        width: 84px;
-        height: 27px;
-        border-radius: 50px;
-        border: none;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 16px;
-        letter-spacing: -0.03em;
+    width: 84px;
+    height: 27px;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.03em;
 }
-    
 
 
-.fansText{
+
+.fansText {
     color: #FFF;
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 
 }
 
-.fansText h5{
+.fansText h5 {
     font-size: 34px;
-        font-weight: 500;
-        line-height: 35px;
-        letter-spacing: -0.03em;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
 
 }
 
-.fansText p{
+.fansText p {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
-.influencer{
+.influencer {
     padding: 72px 6% 6%;
     position: relative;
     display: flex;
@@ -282,16 +282,17 @@
     height: 617px;
     max-width: 377px;
     width: 100%;
-    
+    background-color: ;
+
 }
 
-.influencerText{
+.influencerText {
     display: flex;
     flex-direction: column;
     gap: 24px;
 }
 
-.influencerText h4{
+.influencerText h4 {
     font-size: 34px;
     font-weight: 500;
     line-height: 35px;
@@ -299,18 +300,200 @@
 }
 
 
-.influencerText p{
+.influencerText p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
 }
 
-.influencer img{
+.influencer img {
     width: 320px;
     height: 300px;
     position: absolute;
     left: 0;
     bottom: 0;
+
+}
+
+.filterSection {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 375px;
+    height: 560px;
+    width: 100%;
+
+}
+
+
+.filter {
+display: flex;
+  justify-content: space-between;
+  gap: 167px;
+ padding-top: 120px;
+}
+
+
+ .filter img {
+    width: 48px;
+    height: 48px;
+    stroke-width: 2.5px;
+    stroke: #FF8C62;
+   
     
 }
+
+
+ .filterText {
+    color: white;
+    padding-top: ;
+    
+    width: 311px;
+ }
+   
+
+
+.filterText h4{
+display: flex;
+width: 311px;
+flex-direction: column;
+margin-bottom: 26px;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 101.1%;
+letter-spacing: -1.02px;
+
+}
+
+.filterText p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.ear1{
+    max-width: 375px;
+    width: 100%;
+    height: 1639px;  
+    background-color: white;
+    padding: 55px 6%;
+    
+
+}
+
+.container{
+    display: flex;
+padding-top: 79px;
+
+;
+
+
+}
+
+.bullets{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 118px
+    
+    
+}
+
+
+
+
+.hr{
+   
+
+}
+.bulletsText{
+    display: flex;
+    flex-direction: column;
+    gap: 118px;
+    padding-top: 76px;
+   
+
+}
+
+
+
+.ear1 h4{
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    color: #007640;
+
+}
+.ease{
+    display: flex;
+    gap: 54px;
+}
+
+.bulletsText p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+opacity: 0.6000000238418579;
+}
+
+.bulletsText h5{
+color: var(--black, #121212);
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 116.6%;
+letter-spacing: -0.72px;
+padding-bottom: 16px;
+}
+
+.phone{
+    padding: 0 24px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} 
+
+
+.phoneImage{
+    position: absolute;
+   
+}
+
+.phoneText{
+    width: 335px;
+    height: 551px; 
+    border-radius: 50px;
+    background-color: #007640;
+    position:absolute;
+    
+    
+    
+    
+}
+
+.phoneText h4{
+    color: white;
+    font-size: 48px;
+        font-weight: 500;
+        line-height: 49px;
+        letter-spacing: -0.03em;
+
+
+}
+
+.phoneText p{
+    color: white; 
+    font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+}
+
